@@ -1,13 +1,15 @@
-import style from './Heading.module.css';
+import style from './style.module.css';
 
 type HeadingProps = {
   children: React.ReactNode;
 };
 
-export function Heading({ children }: HeadingProps) {
+const Heading = ({ children }: HeadingProps) => {
   return (
     <>
       <h1 className={style.textHeader}>{children}</h1>
     </>
   );
-}
+};
+
+export default Heading;

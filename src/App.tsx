@@ -1,5 +1,5 @@
 import './global/global.css';
 import { createRoot } from 'react-dom/client';
-import { Hello } from './components/organisms/hello/Hello';
+import MainSection from './components/organisms/MainSection';
 
-createRoot(document.getElementById('root')!).render(<Hello />);
+createRoot(document.getElementById('root')!).render(<MainSection />);
