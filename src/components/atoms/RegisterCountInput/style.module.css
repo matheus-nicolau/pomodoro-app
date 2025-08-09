@@ -1,0 +1,28 @@
+.registerCountInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.registerCountInput p {
+  margin-bottom: 2rem;
+  color: var(--gray-100);
+}
+
+.registerCountInput input {
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: var(--gray-100);
+  border: none;
+  border-bottom: solid 1px var(--primary);
+  background-color: var(--text-over-primary);
+}
+
+.registerCountInput input:focus {
+  outline: none;
+}

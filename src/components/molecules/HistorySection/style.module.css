@@ -1,8 +1,7 @@
-.textHeader {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
+.historyContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
 }
