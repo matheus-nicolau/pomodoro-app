@@ -1,22 +1,22 @@
 import { HistoryIcon, HomeIcon, SettingsIcon, SunIcon } from 'lucide-react';
 import style from './style.module.css';
-import ButtonOptions from '../../atoms/ButtonOptions';
+import ButtonDefaultSmall from '../../atoms/ButtonDefaultSmall';
 
 const MenuMainOptions = () => {
   return (
     <nav className={style.optionsContainer}>
-      <ButtonOptions>
+      <ButtonDefaultSmall typeButton='default'>
         <HomeIcon />
-      </ButtonOptions>
-      <ButtonOptions>
+      </ButtonDefaultSmall>
+      <ButtonDefaultSmall typeButton='default'>
         <HistoryIcon />
-      </ButtonOptions>
-      <ButtonOptions>
+      </ButtonDefaultSmall>
+      <ButtonDefaultSmall typeButton='default'>
         <SettingsIcon />
-      </ButtonOptions>
-      <ButtonOptions>
+      </ButtonDefaultSmall>
+      <ButtonDefaultSmall typeButton='default'>
         <SunIcon />
-      </ButtonOptions>
+      </ButtonDefaultSmall>
     </nav>
   );
 };

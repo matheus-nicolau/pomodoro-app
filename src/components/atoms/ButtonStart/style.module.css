@@ -1,0 +1,30 @@
+.containerbuttonStart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 4rem;
+  gap: 1.5rem;
+}
+
+.buttonStart {
+  background-color: var(--primary);
+  padding: 0.5rem 0.8rem;
+  width: 20rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.buttonStart svg {
+  color: var(--text-over-primary);
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.buttonStart:hover {
+  transition: 0.2s;
+  filter: brightness(80%);
+  cursor: pointer;
+}

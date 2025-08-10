@@ -1,2 +1,19 @@
 .cyclesCounter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-100);
+  margin-top: 4rem;
+}
+
+.titleCycle {
+  margin-bottom: 4rem;
+}
+
+.pointerContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1.4rem;
 }

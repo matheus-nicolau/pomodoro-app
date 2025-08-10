@@ -7,7 +7,7 @@ const MenuMainButton = () => {
       <a href='#'>
         <TimerIcon />
       </a>
-      <div>Chronos</div>
+      <div>Tic Tac</div>
     </div>
   );
 };
