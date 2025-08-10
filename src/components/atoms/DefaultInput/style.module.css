@@ -7,7 +7,7 @@
   padding: 1rem;
 }
 
-.registerCountInput p {
+.registerCountInput label {
   margin-bottom: 2rem;
   color: var(--gray-100);
 }
@@ -17,10 +17,10 @@
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem;
-  color: var(--gray-100);
   border: none;
   border-bottom: solid 1px var(--primary);
   background-color: var(--text-over-primary);
+  color: var(--gray-100);
 }
 
 .registerCountInput input:focus {

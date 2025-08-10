@@ -1,15 +1,15 @@
 import { Trash2Icon } from 'lucide-react';
-import ButtonTrash from '../../atoms/ButtonTrash';
 import style from './style.module.css';
 import HistoryTitle from '../../atoms/HistoryTitle';
+import ButtonDefaultSmall from '../../atoms/ButtonDefaultSmall';
 
 const HistorySection = () => {
   return (
     <div className={style.historyContainer}>
       <HistoryTitle />
-      <ButtonTrash>
+      <ButtonDefaultSmall typeButton='default'>
         <Trash2Icon />
-      </ButtonTrash>
+      </ButtonDefaultSmall>
     </div>
   );
 };

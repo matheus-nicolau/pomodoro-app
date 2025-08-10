@@ -1,0 +1,18 @@
+.pointerContainer {
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.success {
+  background-color: var(--success);
+}
+
+.warning {
+  background-color: var(--warning);
+}
+
+.info {
+  background-color: var(--info);
+}
