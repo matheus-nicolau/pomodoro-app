@@ -1,0 +1,52 @@
+.containerbuttonDefaultMedium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 3.6rem;
+  gap: 1.5rem;
+}
+
+.buttonDefaultMedium {
+  padding: 0.5rem 0.8rem;
+  width: 20rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.buttonDefaultMedium svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.buttonDefaultMedium:hover {
+  transition: 0.2s;
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.start {
+  background-color: var(--primary);
+}
+
+.start svg {
+  color: var(--text-over-primary);
+}
+
+.save {
+  background-color: var(--primary);
+}
+
+.save svg {
+  color: var(--text-over-primary);
+}
+
+.pause {
+  background-color: var(--error);
+}
+
+.pause svg {
+  color: var(--gray-100);
+}

@@ -1,4 +1,5 @@
-import ButtonStart from '../../atoms/ButtonStart';
+import { PlayCircleIcon } from 'lucide-react';
+import ButtonDefaultMedium from '../../atoms/ButtonDefaultMedium';
 import CyclesCounter from '../../atoms/CyclesCounter';
 import DefaultInput from '../../atoms/DefaultInput';
 import style from './style.module.css';
@@ -8,7 +9,10 @@ const RegisterMainForm = () => {
     <form action='submit' className={style.registerMainForm}>
       <DefaultInput id='registerInput' type='text' title='task:' />
       <CyclesCounter />
-      <ButtonStart />
+      <ButtonDefaultMedium type='start'>
+        {' '}
+        <PlayCircleIcon />{' '}
+      </ButtonDefaultMedium>
     </form>
   );
 };

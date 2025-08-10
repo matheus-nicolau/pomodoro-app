@@ -1,7 +1,7 @@
-import Counter from '../../atoms/Counter';
+import Footer from '../../molecules/Footer';
 import MenuMainButton from '../../molecules/MenuMainButton';
 import MenuMainOptions from '../../molecules/MenuMainOptions';
-import RegisterMainForm from '../../molecules/RegisterMainForm';
+import FormConfig from '../FormConfig';
 import style from './style.module.css';
 
 const MainSection = () => {
@@ -9,8 +9,8 @@ const MainSection = () => {
     <div className={style.text}>
       <MenuMainButton />
       <MenuMainOptions />
-      <Counter />
-      <RegisterMainForm />
+      <FormConfig />
+      <Footer />
     </div>
   );
 };

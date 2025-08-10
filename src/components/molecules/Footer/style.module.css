@@ -1,0 +1,18 @@
+.footer {
+  font-size: 1rem;
+  margin-top: 8rem;
+}
+
+.footerContainer {
+  border-top: solid 1px var(--gray-600);
+  padding: 1rem;
+}
+
+.footerContainer a {
+  text-decoration: none;
+  color: var(--gray-100);
+}
+
+.footerContainer a:hover {
+  filter: brightness(80%);
+}

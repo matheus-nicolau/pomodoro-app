@@ -1,0 +1,18 @@
+.containerConfigTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.configTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--gray-100);
+}
+
+.subTitle {
+  color: var(--gray-300);
+  font-size: 1.4rem;
+}
