@@ -7,7 +7,7 @@ const HistorySection = () => {
   return (
     <div className={style.historyContainer}>
       <HistoryTitle />
-      <ButtonDefaultSmall typeButton='default'>
+      <ButtonDefaultSmall typeButton='error'>
         <Trash2Icon />
       </ButtonDefaultSmall>
     </div>
