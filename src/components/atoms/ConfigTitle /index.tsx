@@ -5,7 +5,7 @@ const ConfigTitle = () => {
     <div className={style.containerConfigTitle}>
       <p className={style.configTitle}>Configurações</p>
       <p className={style.subTitle}>
-        Configure o <b>Tic Tac</b> do rológio.
+        Configure o <b>Tic Tac</b> do relógio.
       </p>
     </div>
   );
