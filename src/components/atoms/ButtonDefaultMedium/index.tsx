@@ -7,9 +7,19 @@ interface ButtonMediumType {
 }
 
 const ButtonDefaultMedium = ({ type, children }: ButtonMediumType) => {
+  function handleClick(event) {
+    console.log('cliquei');
+    console.log('Teste Gather');
+
+    event.preventDefault();
+  }
+
   return (
     <div className={style.containerbuttonDefaultMedium}>
-      <button className={`${style.buttonDefaultMedium} ${style[type]}`}>
+      <button
+        onClick={handleClick}
+        className={`${style.buttonDefaultMedium} ${style[type]}`}
+      >
         {children}
       </button>
     </div>
