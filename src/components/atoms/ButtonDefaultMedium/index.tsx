@@ -10,6 +10,7 @@ const ButtonDefaultMedium = ({ type, children }: ButtonMediumType) => {
   function handleClick(event) {
     console.log('cliquei');
     console.log('Teste Gather');
+    console.log('Teste Gather');
 
     event.preventDefault();
   }
